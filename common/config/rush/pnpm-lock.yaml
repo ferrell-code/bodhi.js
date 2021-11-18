@@ -277,7 +277,7 @@ importers:
     specifiers:
       '@acala-network/api': ~3.0.2-1
       '@acala-network/bodhi': workspace:*
-      '@acala-network/contracts': ~1.2.1
+      '@acala-network/contracts': ~4.0.1
       '@polkadot/api': ~6.4.2
       '@types/chai': ~4.2.22
       '@types/mocha': ~9.0.0
@@ -290,7 +290,7 @@ importers:
     dependencies:
       '@acala-network/api': 3.0.2
       '@acala-network/bodhi': link:../../bodhi
-      '@acala-network/contracts': 1.2.1
+      '@acala-network/contracts': 4.0.1
       '@polkadot/api': 6.4.2
     devDependencies:
       '@types/chai': 4.2.22
@@ -306,7 +306,7 @@ importers:
     specifiers:
       '@acala-network/api': ~3.0.2-1
       '@acala-network/bodhi': workspace:*
-      '@acala-network/contracts': ~1.2.1
+      '@acala-network/contracts': ~4.0.1
       '@polkadot/api': ~6.4.2
       '@polkadot/keyring': ^7.5.1
       '@types/chai': ~4.2.22
@@ -320,7 +320,7 @@ importers:
     dependencies:
       '@acala-network/api': 3.0.2
       '@acala-network/bodhi': link:../../bodhi
-      '@acala-network/contracts': 1.2.1
+      '@acala-network/contracts': 4.0.1
       '@polkadot/api': 6.4.2
       '@polkadot/keyring': 7.5.1
     devDependencies:
@@ -337,7 +337,7 @@ importers:
     specifiers:
       '@acala-network/api': ~3.0.2-1
       '@acala-network/bodhi': workspace:*
-      '@acala-network/contracts': ~1.2.1
+      '@acala-network/contracts': ~4.0.1
       '@openzeppelin/contracts': ~4.3.2
       '@polkadot/api': ~6.4.2
       '@polkadot/keyring': ^7.5.1
@@ -352,7 +352,7 @@ importers:
     dependencies:
       '@acala-network/api': 3.0.2
       '@acala-network/bodhi': link:../../bodhi
-      '@acala-network/contracts': 1.2.1
+      '@acala-network/contracts': 4.0.1
       '@polkadot/api': 6.4.2
       '@polkadot/keyring': 7.5.1
     devDependencies:
@@ -370,7 +370,7 @@ importers:
     specifiers:
       '@acala-network/api': ~3.0.2-1
       '@acala-network/bodhi': workspace:*
-      '@acala-network/contracts': ~1.2.1
+      '@acala-network/contracts': ~4.0.1
       '@types/chai': ~4.2.22
       '@types/mocha': ~9.0.0
       chai: ~4.3.4
@@ -382,7 +382,7 @@ importers:
     dependencies:
       '@acala-network/api': 3.0.2
       '@acala-network/bodhi': link:../../bodhi
-      '@acala-network/contracts': 1.2.1
+      '@acala-network/contracts': 4.0.1
     devDependencies:
       '@types/chai': 4.2.22
       '@types/mocha': 9.0.0
@@ -430,7 +430,7 @@ importers:
     specifiers:
       '@acala-network/api': ~3.0.2-1
       '@acala-network/bodhi': workspace:*
-      '@acala-network/contracts': ~1.2.1
+      '@acala-network/contracts': ~4.0.1
       '@polkadot/api': ~6.4.2
       '@polkadot/keyring': ^7.5.1
       '@types/chai': ~4.2.22
@@ -444,7 +444,7 @@ importers:
     dependencies:
       '@acala-network/api': 3.0.2
       '@acala-network/bodhi': link:../../bodhi
-      '@acala-network/contracts': 1.2.1
+      '@acala-network/contracts': 4.0.1
       '@polkadot/api': 6.4.2
       '@polkadot/keyring': 7.5.1
     devDependencies:
@@ -461,7 +461,7 @@ importers:
     specifiers:
       '@acala-network/api': ~3.0.2-1
       '@acala-network/bodhi': workspace:*
-      '@acala-network/contracts': ~1.2.1
+      '@acala-network/contracts': ~4.0.1
       '@openzeppelin/contracts': ~4.3.2
       '@polkadot/api': ~6.4.2
       '@polkadot/keyring': ^7.5.1
@@ -476,7 +476,7 @@ importers:
     dependencies:
       '@acala-network/api': 3.0.2
       '@acala-network/bodhi': link:../../bodhi
-      '@acala-network/contracts': 1.2.1
+      '@acala-network/contracts': 4.0.1
       '@polkadot/api': 6.4.2
       '@polkadot/keyring': 7.5.1
     devDependencies:
@@ -542,6 +542,11 @@ packages:
 
   /@acala-network/contracts/1.2.1:
     resolution: {integrity: sha512-i40CiTnj6vWvZUgMjeENjhNu9+3GuTB9ZDXDDZ7aokE5es6Q3/wG9zVM8aaZeLH9iNiU9xPf8j6fH7LaorgZzg==}
+    dev: true
+
+  /@acala-network/contracts/4.0.1:
+    resolution: {integrity: sha512-T9wiPbSFeGS+jcPyvBx7wxP9lrhCEhB8ZJVKTWGC8mKfqUvHbi56g5U9nMslqORd8EQ60+Jlt13anUa19V445w==}
+    dev: false
 
   /@acala-network/type-definitions/3.0.1:
     resolution: {integrity: sha512-lkedZURwMFTt4OhNnX6aV1PISeBYblndI3LZNqkO2KZYB2ZeoQPfcmXTvo2v+R4Nen1rX1Tz9bxI1wt4JlY3Og==}
